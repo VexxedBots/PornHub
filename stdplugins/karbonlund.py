@@ -67,7 +67,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="@R4V4N4 SAYS: Kya Comment Dakun Behenchod",
+         caption="Done",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
