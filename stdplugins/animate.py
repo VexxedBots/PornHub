@@ -261,19 +261,13 @@ async def _(event):
 
             "😢",
 
-            "‎**Repo by @r4v4n4**",
- 
             "😁",
 
             "😧",
 
             "😡",
 
-            "😢",
-
-            "‎github.com/ravana69/pornhub",
-
-            "__**RePe GeNg Is BeHiNd You....**__"
+            "😢"
 
         ]
 
@@ -314,8 +308,6 @@ async def _(event):
 
             "‎😁",
 
-            "**Fair & Lovely GeNg Is BeHiNd You....**"
-
         ]
 
         for i in animation_ttl:
@@ -354,8 +346,6 @@ async def _(event):
             "🙊",
 
             "🖕‎🐵🖕",
-
-            "**Harami GeNg Is BeHiNd You....**"
 
         ]
 

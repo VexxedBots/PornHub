@@ -40,7 +40,7 @@ async def _(event):
                     )
                     await asyncio.sleep(10)
                     await no_admin_privilege_message.edit(
-                        "https://t.me/keralagram/724970",
+                        "https://da.gd/YHUHaF",
                         link_preview=False
                     )
                 else:

@@ -14,11 +14,11 @@ async def _(event):
         s_help_string = borg._plugins[splugin_name].__doc__
     else:
         s_help_string = "****:"
-    help_string = """@UniBorg ( **Custom Built By** @r4v4n4 ) \n**Verified Account**: ✅\n**Official Website**: https://ravanaisdrunk.site.live\n
-Pithun {}
-Talethrun {}
+    help_string = """@iclapcheeks \n**Verified Account**: ✅\n
+Python {}
+Telethon {}
  
-**Custom Built Fork**: https://github.com/ravana69/PornHub""".format(
+**Custom Built Fork**""".format(
         sys.version,
         __version__
     )
@@ -54,17 +54,17 @@ async def _(event):
     result = await borg(functions.help.GetConfigRequest())  # pylint:disable=E0602
     result = result.stringify()
     logger.info(result)  # pylint:disable=E0602
-    await event.edit("""Telethon UserBot powered by @UniBorg""")
+    await event.edit("""Telethon UserBot powered by Slavery""")
 
 
-@borg.on(admin_cmd(pattern="gandu (.*)"))
+@borg.on(admin_cmd(pattern="getHelp (.*)"))
 async def _(event):
     if event.fwd_from:
         return
     plugin_name = event.pattern_match.group(1)
     if plugin_name in borg._plugins:
         help_string = borg._plugins[plugin_name].__doc__
-        unload_string = f"Use `.unloda {plugin_name}` to remove this plugin.\n           © @r4v4n4"
+        unload_string = f"Use `.unload {plugin_name}` to remove this plugin.\n          "
         if help_string:
             plugin_syntax = f"Syntax for plugin **{plugin_name}**:\n\n{help_string}\n{unload_string}"
         else:

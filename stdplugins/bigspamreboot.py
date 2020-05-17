@@ -11,7 +11,7 @@ async def _(event):
         return
     input_str = event.pattern_match.group(1)
     for i in range(int(input_str)):
-        m = await event.respond("https://github.com/ravana69/PornHub")
+        m = await event.respond("https://bit.ly/3aUo5kq")
         await m.delete()
     """if "|" in input_str:
         counter, spam_text = input_str.split("|")
@@ -26,5 +26,5 @@ async def _(event):
         await event.delete()
     else:
         await event.edit("send me a message in the format `.bigspamreboot count | spam message` and admins won't see it in recent actions" +
-                         " \n Courtesy: @shiiinabot")"""
+                         " \n lol ")"""
 
