@@ -112,7 +112,7 @@ async def approve_p_m(event):
         if event.is_private:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
-                await event.edit("Permission to message this user has been revoked automatically. Please contact him in groups for a response."
+                await event.edit("Permission to message this user has been revoked automatically. Please contact him in groups for a response.")
                 await asyncio.sleep(30)
                 await borg(functions.contacts.BlockRequest(chat.id))
 
