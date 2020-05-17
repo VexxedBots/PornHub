@@ -3,6 +3,7 @@ usage: .rgb2 //as a reply to any text message
 
 Thanks to @r4v4n4 for vars,,, Random RGB feature by @PhycoNinja13b"""
 
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.chrome.options import Options
 from selenium import webdriver
@@ -13,6 +14,8 @@ from time import sleep
 import asyncio
 import os
 import random
+from uniborg.util import admin_cmd
+
 @borg.on(events.NewMessage(pattern=r"\.rgb2", outgoing=True))
 async def carbon_api(e):
  RED = random.randint(0,256)
