@@ -105,7 +105,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="RGB Karbon cause y not",
+         caption="RGB Karbon",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
