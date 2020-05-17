@@ -21,7 +21,7 @@ async def img_sampler(event):
     elif reply:
         query = reply.message
     else:
-    	await event.edit("`What I am Supposed to Search u Dumb Ass(Donkey)`")
+    	await event.edit("`What I am Supposed to Search for?)`")
     	return
         
     lim = findall(r"lim=\d+", query)
