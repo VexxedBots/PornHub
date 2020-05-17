@@ -16,7 +16,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "__You Have__  **1/3**  __warnings...__\n**Watch out!....**\n**Reason for warn:** __Porn Demand__"
+    mentions = "__You Have__  **1/3**  __warnings...__\n**Watch out!....**\n**Reason for warn:** __Bhenchod__"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -39,7 +39,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "__You Have__  **2/3**  __warnings...__\n**Watch out!....**\n**Reason for warn:** __Porn Demand__"
+    mentions = "__You Have__  **2/3**  __warnings...__\n**Watch out!....**\n**Reason for warn:** __Gandu__"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -62,7 +62,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "__You Have__  **3/3**  __warnings...__\n**Watch out!....**\n**Reason for warn:** __Porn Demand__"
+    mentions = "__You Have__  **3/3**  __warnings...__\n**Watch out!....**\n**Reason for warn:** __Madarchod__"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -108,7 +108,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "__Warning!! User__ 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 __By Admin...__\n**Reason:** __Potential Porn Addict.__"
+    mentions = "__Warning!! User__ 𝙂𝘽𝘼𝙉𝙉𝙀𝘿 __By Admin...__\n**Reason:** __Bhetichod__"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
@@ -141,7 +141,7 @@ async def _(event):
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`U Got A FloodWait:\nReason:telethon.errors.rpcerrorlist.FloodWaitError: A wait of 546578265716823 seconds is required (caused by EditMessageRequest)`"
+    mentions = "`FloodWait:\nReason:telethon.errors.rpcerrorlist.FloodWaitError: A wait of 696969 seconds is required (caused by EditMessageRequest)`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
