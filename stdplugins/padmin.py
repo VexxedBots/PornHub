@@ -50,9 +50,8 @@ async def _(event):
             "**(7) Pin Messages: ✅**",
             "**(8) Change Chat Info: ☑️**",
             "**(8) Change Chat Info: ✅**",
-            "**Permission Granted Successfully**",
-            "**pRoMoTeD SuCcEsSfUlLy bY: @r4v4n4**"
-
+            "**Permission Granted Successfully**"
+            
  ]
 
         for i in animation_ttl:
