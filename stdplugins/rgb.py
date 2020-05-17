@@ -64,7 +64,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="RGB Karbon 2.0 stolen cause my plugin too stolen.....",
+         caption="RGB Karbon 2.0 Complete.....",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
